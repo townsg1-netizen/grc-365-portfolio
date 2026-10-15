@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+<style>
+	body {
+	   background: aliceblue;
+	} h1 {
+		font: 36pt/1.4em Marne;
+		src: url(../Tutorial%204%20Portfolio/marne.ttf);
+		text-align: center;
+		text-shadow: 2px 3px 6px lightgray;
+		margin-top: 60px; 
+	} #square {
+		width: 786px;
+		height: 786px;
+		background: white;
+		margin: 24px auto;
+		border-radius: 48px;
+		border: 1px solid gray;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-start;
+	} .thumb {
+		width: 150px;
+	} figure {
+		// background: pink;
+		width: 150px;
+	} figcaption {
+		font: italic 12pt/1.4em Georgia;
+		text-align: center;
+</style>
+</head>
+<body>
+    <h1>Portfolio</h1>
+    <div id="square">
+		<figure>
+		<a href="bird_screenprint.jpg" />
+            <img class="thumb" src="bird_thumbnail.jpg" />
+        <figcaption>Feminine Rage ~ Screen Print 
+        </figcaption>
+        </figure>
+        <figure>
+		<a href="pom_oil_painting.jpg" />
+			<img class="thumb" src="pom_thumbnail.jpg" />
+        <figcaption>Pomegranate ~ Oil Painting
+        </figcaption>
+        </figure>
+		<figure>
+		<a href="ocean_screenprint.jpg" />
+			<img class="thumb" src="ocean_tumbnail.jpg" />
+        <figcaption> Grounded ~ Screen Print
+        </figcaption>
+        </figure>
+    </div>
+</body>
+</html>
